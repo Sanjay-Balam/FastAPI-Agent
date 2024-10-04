@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV to JSON Uploader</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.1/dist/tailwind.min.css">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="p-8 bg-white rounded-lg shadow-md">
+        <h1 class="text-2xl font-bold mb-4">CSV File Uploader</h1>
+        <input type="file" id="csvFileInput" accept=".csv">
+        <button id="uploadBtn" class="mt-4 p-2 bg-blue-500 text-white rounded-md">
+            Upload CSV
+        </button>
+        <div id="output" class="mt-4 text-sm text-gray-600"></div>
+
+        <script src="/static/main.js"></script>
+    </div>
+</body>
+</html>
